@@ -1,0 +1,10 @@
+name: SafeLogout
+version: '${project.version}'
+main: dev.goldenedit.safelogout.SafeLogout
+api-version: '1.20'
+depend: [CombatLogX]
+commands:
+  logout:
+    description: Safely logout without getting combat tagged.
+    usage: /<command>
+    permission: safelogout.use
